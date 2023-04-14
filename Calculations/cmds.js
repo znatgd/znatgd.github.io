@@ -34,6 +34,6 @@ function modu() {
 
 function sqr() {
     let num = parseFloat(prompt("Enter the number to square:", "")); //Input answer
-    let sum = parseFloat(num*num); //Square
+    let sum = num * num; //Square
     document.getElementByID('output').innerHTML = "Your answer is " + sum; //Output 
 }
