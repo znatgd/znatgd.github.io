@@ -18,7 +18,7 @@ function mult() {
     document.getElementById('output').innerHTML = "Your answer is " + sum; //Output
     }
 
-function div() {
+function divi() {
     let num1 = parseFloat(prompt("Enter first number: ", "13")); //Input answer and converts from string to int
     let num2 = parseFloat(prompt("Enter the second number: ", "25")); //Input answer and converts from string to int
     let sum = parseInt(num1 / num2); //Calculations
