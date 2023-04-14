@@ -6,8 +6,7 @@ This is the version history of this site
 * Initial release
 
 # v0.1
-* Added Calculations
-  ** Calculations doesn't work
+* Added Calculations, doesn't work
 
 # v0.2
 * calculations should work, else I DON'T KNOW WHAT TO DO.
