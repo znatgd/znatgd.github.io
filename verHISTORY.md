@@ -10,3 +10,6 @@ This is the version history of this site
 
 # v0.2
 * calculations should work, else I DON'T KNOW WHAT TO DO.
+
+# v0.3
+* Calculations improved, added more things, like Updates
