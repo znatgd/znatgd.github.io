@@ -11,10 +11,10 @@ function loginID() {
         alert("Exiting manager...");
     }
     if (username==true) {
-        document.getElementById('message').innerHTML = "Welcome " + username;
+        document.getElementByID('message').innerHTML = "Welcome " + username;
         if (username=="ADMINPASS") {
             userID = 1;
-            document.getElementById('message').innerHTML = "Welcome " + username + "#" + userID;
+            document.getElementByID('message').innerHTML = "Welcome " + username + "#" + userID;
         }
     }
 }
