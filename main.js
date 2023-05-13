@@ -1,10 +1,11 @@
 var userID = 1;
+var uname = "ADMINPASS";
 function loginID() {
-    var username = prompt("Enter your username", "example");
-    document.getElementByID("greeting").innerHTML = "Welcome " + username;
-    if (username=="ADMINPASS") {
+    uname = prompt("Enter your username", "example");
+    document.getElementById("greeting").innerHTML = "Welcome " + username;
+    if (uname=="ADMINPASS") {
         userID = 1;
-        document.getElementByID("greeting").innerHTML = "Welcome " + username + "#" + userID;
+        document.getElementById("greeting").innerHTML = "Welcome " + username + "#" + userID;
     }
 }
 //please do not change this...

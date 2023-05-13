@@ -6,6 +6,13 @@ h1 {
 footer {
     text-align: center;
 }
+
 header {
     text-align: center;
+}
+
+body {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
 }
