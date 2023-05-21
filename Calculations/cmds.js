@@ -39,5 +39,5 @@ function modu() {
 function sqr() {
     alert("Sry, square doesn't work. Use multiplication.");
     console.log("\"Sry, square doesn't work. Use multiplication.\"");
-    document.getElementByID("output").innerHTML = "Square doesn't work." + sum; //Output 
+    document.getElementById('output').innerHTML = "Square doesn't work." + sum; //Output 
 }
