@@ -1,7 +1,7 @@
 var userID = 1;
 var uname = "ADMINPASS";
 function loginID() {
-    uname = prompt("Enter your username", "example");
+    uname = prompt("Enter your username", "");
     document.getElementById("greeting").innerHTML = "Welcome " + username;
     if (uname=="ADMINPASS") {
         userID = 1;
