@@ -41,3 +41,5 @@ function sqr() {
     console.log("\"Sry, square doesn't work. Use multiplication.\"");
     document.getElementById('output').innerHTML = "Square doesn't work." + sum; //Output 
 }
+
+//Hope this fu... I mean, fruitful project works
