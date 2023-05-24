@@ -1,11 +1,50 @@
-var userID = 1;
-var uname = "ADMINPASS";
-function loginID() {
-    uname = prompt("Enter your username", "");
-    document.getElementById("greeting").innerHTML = "Welcome " + username;
-    if (uname=="ADMINPASS") {
-        userID = 1;
-        document.getElementById("greeting").innerHTML = "Welcome " + username + "#" + userID;
+var userID = parseInt(50);
+function login() {
+    var uname = window.prompt("Enter your username:", "");
+    document.getElementById('greeting').innerHTML = "Welcome to MK LiveTV, " + uname;
+    if (uname=="MKMusic") {
+        userID = 0001;
+        console.log("#" + userID);
+        document.getElementById('greeting').innerHTML = "Welcome to MK LiveTV, " + uname + "#" + userID;
+    }
+    if (uname=="adminpass" || uname=="ADMINPASS") {
+        userID = 0002
+        console.log("#" + userID);
+        document.getElementById('greeting').innerHTML = "Welcome to MK LiveTV, " + uname + "#" + userID;
+    }   
+    if (uname=="player" || uname=="PLAYER") {
+        userID = 0003
+        console.log("#" + userID);
+        document.getElementById('greeting').innerHTML = "Welcome to MK LiveTV, " + uname + "#" + userID;
+    }
+    if (uname=="danUSER") {
+        userID = 0004
+        console.log("#" + userID);
+        document.getElementById('greeting').innerHTML = "Welcome to MK LiveTV, " + uname + "#" + userID;
+    }
+    if (uname=="Juniper" || uname=="juniper" || uname=="JUNIPER" || uname=="Juni") {
+        userID = 0005
+        console.log("#" + userID);
+        document.getElementById('greeting').innerHTML = "Welcome to MK LiveTV, " + uname + "#" + userID;
+    }
+    if (uname=="GDColon" || uname=="Colon" || uname=="COLON" || uname=="gdcolon" || uname=="GDCOLON" || uname=="colon" || uname=="Craig" || uname=="CRAIG") {
+        userID = 0006
+        console.log("#" + userID);
+        document.getElementById('greeting').innerHTML = "Welcome to MK LiveTV, " + uname + "#" + userID;
+    }
+    if (uname=="Adela") {
+        userID = 0007;
+        console.log("#" + userID);
+        document.getElementById('greeting').innerHTML = "Welcome to MK LiveTV, " + uname + "#" + userID;
+    }
+    if (uname=="Suting") {
+        userID = 0008;
+        console.log("#" + userID);
+        document.getElementById('greeting').innerHTML = "Welcome to MK LiveTV, " + uname + "#" + userID;
+    }
+    if (uname=="addOne") {
+        userID++;
+        console.log("#" + userID);
+        document.getElementById('greeting').innerHTML = "You are " + uname + "#" + userID;
     }
 }
-//please do not change this...
