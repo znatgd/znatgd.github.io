@@ -9,11 +9,11 @@
     padding: 14px 16px;
     font-size: 17px;
 }
-.topnav a:hover {
+.headCont a:hover {
     background-color: white;
     color: black;
 }  
-.topnav a.active {
+.headCont a.active {
     background-color: #04AA6D;
     color: white;
 }
