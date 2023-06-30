@@ -14,8 +14,8 @@
     color: black;
 }  
 .headCont a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: white;
+    color: black;
 }
 body {
     background-color: black;
