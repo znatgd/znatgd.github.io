@@ -17,6 +17,10 @@
     background-color: white;
     color: black;
 }
+.headCont a.active:hover {
+    background-color: black;
+    color: white;
+}
 body {
     background-color: black;
     color: white;
