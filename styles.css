@@ -16,11 +16,14 @@
     color: black;
 }
 .headCont a.active:hover {
-    background-color: black;
+    background-color: #12af73;
     color: white;
 }
 body {
-    background-color: #fc5d41;
+    background-color: #000000;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: #ffffff;
 }
