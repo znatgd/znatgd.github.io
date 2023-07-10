@@ -10,14 +10,18 @@
 .headCont a:hover {
     background-color: white;
     color: black;
-}  
-.headCont a.active {
-    background-color: white;
+}
+.headCont a.twitch:hover {
+    background-color: #6441a5;
     color: black;
 }
-.headCont a.active:hover {
-    background-color: #12af73;
-    color: white;
+.headCont a.youtube:hover {
+    background-color: #CD201F;
+    color: black;
+}
+.headCont a.discord:hover {
+    background-color: #5865F2;
+    color: black;
 }
 body {
     background-color: #000000;
