@@ -6,6 +6,7 @@
     text-align: center;
     padding: 14px 16px;
     font-size: 17px;
+    text-decoration-line: none;
 }
 .headCont a:hover {
     background-color: white;
@@ -23,6 +24,7 @@
     background-color: #5865F2;
     color: black;
 }
+
 body {
     background-color: #000000;
     color: white;
@@ -30,4 +32,17 @@ body {
 }
 a {
     color: #ffffff;
+    text-decoration-line: unset;
+}
+a:hover {
+    color: #06cfcf;
+    text-decoration-line: underline;
+}
+a:visited {
+    text-decoration-line: none;
+    color: #aaaaaa;
+}
+a:active {
+    text-decoration-line: none;
+    color: #aaaaaa;
 }
