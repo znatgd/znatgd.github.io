@@ -39,10 +39,10 @@ a:hover {
     text-decoration-line: underline;
 }
 a:visited {
-    text-decoration-line: none;
+    text-decoration-line: line-through;
     color: #aaaaaa;
 }
 a:active {
-    text-decoration-line: none;
+    text-decoration-line: line-through;
     color: #aaaaaa;
 }
