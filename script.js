@@ -11,3 +11,9 @@ var getWidth = window.innerWidth;
 var getHeight = window.innerHeight;
 console.log(getWidth);
 console.log(getHeight);
+function checkMobile() {
+    if (getWidth < getHeight) {
+        document.getElementsByTagName("body").style.fontSize = "x-large";
+        document.getElementsByClassName("headCont").style.fontSize = "x-small";
+    }
+}
