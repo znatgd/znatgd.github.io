@@ -1,37 +1,37 @@
 .headCont {
     overflow: hidden;
     background-color: #1f1f1f;
-    a {
+}
+    .headCont a {
         float: left;
         text-align: center;
         padding: 14px 16px;
         font-size: 17px;
         text-decoration-line: none;
     }
-    a.active {
+    .headCont a.active {
         background-color: white;
         color: #000000;
     }
-    a.active:hover {
+    .headCont a.active:hover {
         background-color: #000000;
         color: white;
     }
-    a:hover {
+    .headCont a:hover {
         background-color: white;
         color: black;
     }
-    a.twitch:hover {
+.headCont a.twitch:hover {
         background-color: #6441a5;
         color: black;
     }
-    a.youtube:hover {
+.headCont a.youtube:hover {
         background-color: #CD201F;
         color: black;
     }
-    a.discord:hover {
-        background-color: #5865F2;
-        color: black;
-    }
+.headCont a.discord:hover {
+    background-color: #5865F2;
+    color: black;
 }
 
 body {
