@@ -1,12 +1,7 @@
-.headCont {
-    overflow: hidden;
-    background-color: #1f1f1f;
-}
-
 .twitch:hover {
-        background-color: #6441a5;
-        color: #FFFFFF;
-    }
+    background-color: #6441a5;
+    color: #FFFFFF;
+}
 .youtube:hover {
         background-color: #CD201F;
         color: #FFFFFF;
@@ -49,6 +44,20 @@
 }
 
 
+audio {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.headCont {
+    /* display: flex;
+    align-items: stretch;
+    gap: 3px; */
+    overflow: hidden;
+    background-color: #1f1f1f;
+}
+
 .headCont a {
     float: left;
     text-align: center;
@@ -56,6 +65,7 @@
     font-size: 17px;
     text-decoration-line: none;
 }
+
 .headCont a.active {
     background-color: white;
     color: #000000;
