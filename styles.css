@@ -50,34 +50,6 @@ audio {
     display: block;
 }
 
-.headCont {
-    /* display: flex;
-    align-items: stretch;
-    gap: 3px; */
-    overflow: hidden;
-    background-color: #1f1f1f;
-}
-
-.headCont a {
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: 17px;
-    text-decoration-line: none;
-}
-
-.headCont a.active {
-    background-color: white;
-    color: #000000;
-}
-.headCont a.active:hover {
-    background-color: #000000;
-    color: white;
-}
-.headCont a:hover {
-    background-color: white;
-    color: black;
-}
 
 body {
     background-color: #000000;

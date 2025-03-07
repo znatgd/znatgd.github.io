@@ -1,0 +1,29 @@
+.headCont {
+    /* display: flex;
+    align-items: stretch;
+    gap: 3px; */
+    overflow: hidden;
+}
+
+
+.headCont a {
+    float: left;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 17px;
+    text-decoration-line: none;
+}
+a img:last-child {
+    display: none;
+}
+
+.headCont a:hover {
+    background-color: white;
+    color: #000000;
+}
+a:hover img:last-child {
+    display: block;
+}
+a:hover img:first-child {
+    display: none;
+}
