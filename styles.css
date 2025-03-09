@@ -1,7 +1,3 @@
-.twitch:hover {
-    background-color: #6441a5;
-    color: #FFFFFF;
-}
 .youtube:hover {
         background-color: #CD201F;
         color: #FFFFFF;
@@ -29,10 +25,6 @@
 .reddit:hover {
     background-color: #FF5700;
     color: #000000;
-}
-.itchio:hover {
-    background-color: #fa5c5c;
-    color: #FFFFFF;
 }
 .gdash:hover {
     background-color: #287DFF;
