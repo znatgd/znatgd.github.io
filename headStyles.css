@@ -1,10 +1,6 @@
 .headCont {
-    /* display: flex;
-    align-items: stretch;
-    gap: 3px; */
     overflow: hidden;
 }
-
 
 .headCont a {
     float: left;
