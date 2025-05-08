@@ -1,0 +1,51 @@
+audio {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+a {
+    color: #ffffff;
+    text-decoration-line: unset;
+    transition: 500ms ease-in-out;
+}
+
+a:hover, a:focus-visible {
+    color: #554343;
+}
+
+.headCont {
+    overflow: hidden;
+}
+
+.headCont a {
+    float: left;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 17px;
+    border-radius: 5px;
+    text-decoration-line: none;
+    transition: 100ms ease-in-out;
+}
+
+.headCont a:hover, a:focus-visible {
+    background-color: white;
+    color: #000000;
+    transform: scale(0.9);
+}
+
+.foot-link img {
+    background-color: #000000;
+    transition: 90ms ease;
+}
+
+.foot-link img:hover, img:focus-visible {
+    transform: scale(1.5);
+}
