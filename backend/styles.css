@@ -1,20 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Dekko");
+@import url("https://fonts.googleapis.com/css?family=Alegreya");
+
 audio {
     width: 100%;
     margin: 0 auto;
     display: block;
 }
 
-
+h1, h2 {
+    font-family: "Alegreya";
+}
 body {
     background-color: #000000;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: "Dekko";
 }
 
 a {
     color: #ffffff;
     text-decoration-line: unset;
-    transition: 500ms ease-in-out;
+    transition: 150ms ease-in-out;
 }
 
 a:hover, a:focus-visible {
@@ -38,7 +43,7 @@ a:hover, a:focus-visible {
 .headCont a:hover, a:focus-visible {
     background-color: white;
     color: #000000;
-    transform: scale(0.9);
+    transform: scale(1.2);
 }
 
 .foot-link img {
