@@ -50,3 +50,7 @@ a:hover, a:focus-visible {
     background-color: #000000;
     transition: 90ms ease;
 }
+
+.foot-link img:hover, a:focus-visible {
+    transform: scale(1.2);
+}
