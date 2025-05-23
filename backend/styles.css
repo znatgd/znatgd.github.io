@@ -29,7 +29,7 @@ body {
 
 a {
     color: #ffffff;
-    text-decoration-line: unset;
+    text-decoration-line: underline;
     transition: 150ms ease-in-out;
 }
 
