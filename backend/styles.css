@@ -16,12 +16,13 @@ body {
         1px -1px 0 #000000,
         -1px 1px 0 #000000,
         1px 1px 0 #000000;
-    
+
     background-image: url("/src/bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    /* filter: brightness(0.5); */
 
     color: white;
     font-family: "Dekko";
