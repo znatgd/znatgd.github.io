@@ -1,7 +1,7 @@
 const song1 = { path: "https://znatgd.github.io/backend/FutureAdventures.mp3", songTitle: "Future Adventures", artistTitle: "ZnatGD", genre: "Genre: Future Funk", duration: 283 };
 const song2 = { path: "https://znatgd.github.io/backend/LOOP20.m4a", songTitle: "LOOP20", artistTitle: "ZnatGD", genre: "Genre: Freestyle", duration: 83 };
 
-let currentIndex = 0;
+let currentIndex = -1;
 let maxSongs = 2;
 let isPlaying = false;
 
@@ -70,5 +70,15 @@ function switchSong(index) {
         document.getElementById("songTitle").innerText = "noSuchSong";
         document.getElementById("artistTitle").innerText = "noSuchArtist";
         document.getElementById("genre").innerText = "noSuchGenre";
+    }
+}
+
+function goTo() {
+    if (currentIndex == 0) {
+        window.location.href = "https://znatgd.github.io/backend/FutureAdventures.mp3";
+    }else if (currentIndex == 1) {
+        window.location.href = "https://znatgd.github.io/backend/LOOP20.m4a";
+    } else {
+        window.location.href = "https://torishiro.com/@mkmusic";
     }
 }
