@@ -60,7 +60,7 @@ function switchSong(index) {
         document.getElementById("genre").innerText = song1.genre;
         document.getElementById("player").src = song1.path;
     } else if (index == 1) {
-        document.body.style.backgroundImage = "url('https://znatgd.github.io/src/logo.png')";
+        document.body.style.backgroundImage = "url('https://znatgd.github.io/src/bg.png')";
         document.getElementById("songTitle").innerText = song2.songTitle;
         document.getElementById("artistTitle").innerText = song2.artistTitle;
         document.getElementById("genre").innerText = song2.genre;
