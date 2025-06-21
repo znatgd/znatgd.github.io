@@ -1,8 +1,8 @@
-const song1 = { path: "https://znatgd.github.io/backend/FutureAdventures.mp3", songTitle: "Future Adventures", artistTitle: "ZnatGD", genre: "Genre: Future Funk", duration: 283 };
-const song2 = { path: "https://znatgd.github.io/backend/LOOP20.m4a", songTitle: "LOOP20", artistTitle: "ZnatGD", genre: "Genre: Freestyle", duration: 83 };
+const song1 = { path: "https://znatgd.github.io/backend/FutureAdventures.mp3", songTitle: "Future Adventures", artistTitle: "ZnatGD", genre: "Genre: Future Funk"};
+const song2 = { path: "https://znatgd.github.io/backend/LOOP20.m4a", songTitle: "LOOP20", artistTitle: "ZnatGD", genre: "Genre: Freestyle"};
 
 let currentIndex = -1;
-let maxSongs = 2;
+const maxSongs = 2;
 let isPlaying = false;
 
 const audioPlayer = document.getElementById("player");
