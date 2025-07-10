@@ -10,7 +10,7 @@ body {
     -1px 1px 0 #000000,
     1px 1px 0 #000000;
 
-    background-image: url("/src/bg.png");
+    background-image: url("/src/animebg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

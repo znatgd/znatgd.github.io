@@ -70,21 +70,21 @@ function play() {
 function switchSong(index) {
     currentIndex = index;
     if (index == 0) {
-        document.body.style.backgroundImage = "url('https://znatgd.github.io/src/bg.png')";
+        document.body.style.backgroundImage = "url('https://znatgd.github.io/src/animebg.png')";
         document.getElementById("songTitle").innerText = song1.songTitle;
         document.getElementById("artistTitle").innerText = song1.artistTitle;
         document.getElementById("genre").innerText = song1.genre;
         document.getElementById("player").src = song1.path;
         durationCurrent = song1.duration;
     } else if (index == 1) {
-        document.body.style.backgroundImage = "url('https://znatgd.github.io/src/bg.png')";
+        document.body.style.backgroundImage = "url('https://znatgd.github.io/src/animebg.png')";
         document.getElementById("songTitle").innerText = song2.songTitle;
         document.getElementById("artistTitle").innerText = song2.artistTitle;
         document.getElementById("genre").innerText = song2.genre;
         document.getElementById("player").src = song2.path;
         durationCurrent = song2.duration;
     } else {
-        document.body.style.backgroundImage = "url('https://znatgd.github.io/src/bg.png')";
+        document.body.style.backgroundImage = "url('https://znatgd.github.io/src/animebg.png')";
         document.getElementById("songTitle").innerText = "noSuchSong";
         document.getElementById("artistTitle").innerText = "noSuchArtist";
         document.getElementById("genre").innerText = "noSuchGenre";
