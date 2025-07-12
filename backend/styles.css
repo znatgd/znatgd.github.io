@@ -9,6 +9,7 @@ audio {
 
 h1, h2 {
     font-family: "Alegreya";
+    font-size: 30px;
 }
 body {
     text-shadow:
@@ -17,7 +18,7 @@ body {
         -1px 1px 0 #000000,
         1px 1px 0 #000000;
 
-    background-image: url("/src/bg.png");
+    background-image: url("/src/animebg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -26,6 +27,7 @@ body {
 
     color: white;
     font-family: "Dekko";
+    font-size: large;
 }
 
 a {
@@ -50,6 +52,7 @@ a:hover, a:focus-visible {
     border-radius: 5px;
     text-decoration-line: none;
     transition: 100ms ease-in-out;
+    font-size: larger;
 }
 
 .headCont a:hover, a:focus-visible {
