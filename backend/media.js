@@ -3,6 +3,10 @@ const songPath = [
     "/media/LOOP20.m4a",
 ]
 
+const songFile = [
+    "Future Adventures.mp3",
+    "Loop 20 test.m4a"
+]
 const songTitle = [
     "Future Adventures",
     "LOOP20",
@@ -34,8 +38,6 @@ let isPlaying = false;
 let durationCurrent = "00:00";
 
 const audioPlayer = document.getElementById("player");
-
-window.alert("Please select a song before playing audio...");
 
 // Function to track and display the current position
 function trackAudioPosition() {
@@ -86,18 +88,18 @@ function play() {
     if (isPlaying) {
         document.getElementById("player").pause();
         isPlaying = false;
-        document.getElementById("playButton").innerText = "play";
+        document.getElementById("playButton").src = "/src/play.svg";
         
     } else {
         document.getElementById("player").play();
         isPlaying = true;
-        document.getElementById("playButton").innerText = "pause";
+        document.getElementById("playButton").src = "/src/pause.svg";
     }
 }
 function switchSong(index) {
     document.getElementById("player").pause();
     isPlaying = false;
-    document.getElementById("playButton").innerText = "play";
+    document.getElementById("playButton").src = "/src/play.svg";
     currentIndex = index;
 
     document.body.style.backgroundImage = 'url($"{bgImg[currentIndex]}")';
@@ -109,5 +111,45 @@ function switchSong(index) {
 }
 
 function goTo() {
-    window.location.href = songPath[currentIndex]
+    const link = document.createElement('a');
+    link.href = songPath[currentIndex];
+    link.download = songFile[currentIndex];
+    link.click();
 }
+
+
+window.addEventListener("keydown", (e) => {
+    // Prevent Backspace navigation
+    if (e.key === 'Backspace' && !['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
+        e.preventDefault();
+    }
+
+    // Prevent Arrow key scrolling
+    if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
+    e.preventDefault();
+    }
+    if (e.key == ' ' && e.target === document.body) {
+        e.preventDefault(); // Prevent default scrolling behavior
+    }
+
+    switch (e.code) {
+        case "ArrowLeft":
+            seek(-10)
+            break;
+        case "ArrowRight":
+            seek(10)
+            break;
+        case "Space":
+            play()
+            break;
+        case "ArrowUp":
+            next()
+            break;
+        case "ArrowDown":
+            previous()
+            break;
+        case "KeyX":
+            goTo()
+            break;
+    }
+})

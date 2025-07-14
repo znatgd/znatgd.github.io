@@ -24,8 +24,23 @@ body {
 }
 
 #controls button {
-    /* font-family: "JetBrains Mono", monospace; */
+    font-family: "JetBrains Mono", monospace;
+    border-style: hidden;
     border-radius: 100%;
-    height: 60px;
-    width: 60px;
+    height: 75px;
+    width: 75px;
+    background-color: rgb(255, 255, 255);
+    transition: 100ms ease-in-out;
+}
+
+#controls button:hover {
+    transform: scale(1.1);
+    background-color: rgb(4, 238, 238);
+}
+
+#controls button:active {
+    transform: scale(0.9);
+    background-color: #015854;
+    color: #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.904);
 }
