@@ -1,0 +1,17 @@
+{
+    "name": "Audio Player - MKMusic",
+    "short_name": "MKAudio",
+    "start_url": "/audio",
+    "icons": [
+        {
+            "src": "/src/logo.png",
+            "sizes": "2400x2400",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ],
+    "theme_color": "#f0ffff",
+    "background_color": "#000000",
+    "display": "fullscreen",
+    "orientation": "portrait"
+}

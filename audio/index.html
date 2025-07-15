@@ -19,6 +19,9 @@
     <meta name="twitter:title" content="Znatley's Audio">
     <meta name="twitter:description" content="Twitter knows who I am right?">
     <meta name="twitter:image" content="https://znatgd.github.io/src/animebg.png">
+
+
+    <link rel="manifest" href="manifest.json">
 </head>
 <body tabindex="-1">
     <div id="playerBody">
@@ -64,5 +67,11 @@
     
     <audio id="player"></audio>
     <script src="/backend/media.js"></script>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("service-worker.js");
+        }
+    </script>
 </body>
 </html>
