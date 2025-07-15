@@ -1,6 +1,6 @@
 const songPath = [
-    "/media/FutureAdventures.mp3",
-    "/media/LOOP20.m4a",
+    "https://github.com/znatgd/znatgd.github.io/releases/download/future-adventures/FutureAdventures.mp3",
+    "https://github.com/znatgd/znatgd.github.io/releases/download/future-adventures/LOOP20.m4a",
 ]
 
 const songFile = [
