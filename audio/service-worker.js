@@ -1,4 +1,4 @@
-const VERSION = "v0.1.1";
+const VERSION = "v0.0.0";
 const CACHE_NAME = `mk-audio-player-${VERSION}`;
 
 
