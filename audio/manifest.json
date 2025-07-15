@@ -2,16 +2,15 @@
     "name": "Audio Player - MKMusic",
     "short_name": "MKAudio",
     "start_url": "/audio",
+    "description": "The easiest and most efficient way to stream music from MK/ZnatGD, all for free!",
     "icons": [
         {
-            "src": "/src/logo.png",
-            "sizes": "2400x2400",
-            "type": "image/png",
-            "purpose": "maskable any"
+            "src": "/src/animebg.svg",
+            "sizes": "any",
+            "purpose": "maskable"
         }
     ],
     "theme_color": "#f0ffff",
     "background_color": "#000000",
-    "display": "fullscreen",
-    "orientation": "portrait"
+    "display": "fullscreen"
 }
