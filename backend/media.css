@@ -21,16 +21,37 @@ body {
 
     color: white;
     font-family: "JetBrains Mono", monospace;
+
+    margin: 0;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+    align-items: center;
 }
+
+#songList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#songList fieldset {
+    background-color: rgba(240, 255, 255, 0.363);
+}
+
 
 #controls button {
     font-family: "JetBrains Mono", monospace;
     border-style: hidden;
     border-radius: 100%;
-    height: 60px;
-    width: 60px;
+    /* height: 60px;
+    width: 60px; */
     background-color: rgb(255, 255, 255);
     transition: 100ms ease-in-out;
+
+    width:12vw; 
+    height:12vw;
+    margin:1vw 0;
 }
 
 #controls button:hover {
@@ -46,6 +67,10 @@ body {
 }
 
 #controls img {
-    height: 30px;
-    width: 30px;
+    /* height: 30px;
+    width: 30px; */
+
+    width:6vw; 
+    height:6vw;
+    margin:1vw 0;
 }

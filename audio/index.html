@@ -40,30 +40,27 @@
     
         <h3 id="trackPos">00:00 / 00:00</h3>
         <br>
-        <fieldset style="background-color: rgba(240, 255, 255, 0.363);">
+    </div>
+    
+    
+    <nav id="songList">
+        <fieldset>
             <legend>Hotkeys:</legend>
             Spacebar: Play/Pause<br>
             Left/Right: Seek -10/+10 seconds<br>
             Up/Down: Switch to next/previous track<br>
             X: Save song<br>
         </fieldset>
-    </div>
-
-    <nav id="songList">
         <fieldset>
             <legend>Song list</legend>
     
             <h1>Unlisted</h1>
-            <ol>
-                <li>
-                    <a href="#1" onclick="javascript:switchSong(0)">Future Adventures</a>
-                </li>
-                <li>
-                    <a href="#2" onclick="javascript:switchSong(1)">LOOP20</a>
-                </li>
-            </ol>
+            <a href="#1" onclick="javascript:switchSong(0)">Future Adventures</a><br>
+            <a href="#2" onclick="javascript:switchSong(1)">LOOP20</a>
+            
         </fieldset>
     </nav>
+    <br><br>
     
     <audio id="player"></audio>
     <script src="/backend/media.js"></script>
