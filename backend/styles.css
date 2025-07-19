@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Dekko");
+@import url("https://fonts.googleapis.com/css?family=Alegreya");
+
+audio {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+h1, h2 {
+    font-family: "Alegreya";
+    font-size: 30px;
+}
+body {
+    text-shadow:
+        -1px -1px 0 #ff7272,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000;
+
+    background-image: url("/src/animebg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* filter: brightness(0.5); */
+
+    color: white;
+    font-family: "Dekko";
+    font-size: large;
+}
+
+a {
+    color: #ffffff;
+    text-decoration-line: underline;
+    transition: 150ms ease-in-out;
+}
+
+a:hover, a:focus-visible {
+    color: #554343;
+}
+
+.headCont {
+    overflow: hidden;
+}
+
+.headCont a {
+    float: left;
+    text-align: center;
+    padding: 14px 14px;
+    font-size: 17px;
+    border-radius: 5px;
+    text-decoration-line: none;
+    transition: 100ms ease-in-out;
+    font-size: larger;
+}
+
+.headCont a:hover, a:focus-visible {
+    background-color: white;
+    color: #000000;
+    transform: scale(0.8);
+}
+
+.foot-link img {
+    transition: 90ms ease;
+}
+
+.foot-link img:hover, a:focus-visible {
+    transform: scale(1.5);
+}
